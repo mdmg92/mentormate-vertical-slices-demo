@@ -1,5 +1,6 @@
 using System.Reflection;
 using MediatR;
+using MentorMate.VerticalSlices.App.Application.Behaviors;
 using MentorMate.VerticalSlices.App.Data;
 using MentorMate.VerticalSlices.App.Helpers;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(typeof(Program));
+builder.Services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
 builder.Services.AddDbContext<ProductsDbContext>(options => options.UseInMemoryDatabase("demo"));
 builder.Services.AddEndpointDefinitions(typeof(Program));
 
