@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47505FFA-98F5-4A5A-ACCE-5653A1BB748B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "before", "before", "{4A484C32-709C-48D2-AD4F-7118EC114048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "after", "after", "{0E6547D7-FDDF-48A2-BD3F-8996C096B563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.VerticalSlices.App", "src\after\MentorMate.VerticalSlices.App\MentorMate.VerticalSlices.App.csproj", "{EC7A8D82-873C-41A3-945B-98CCD1217DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.Traditional.App", "src\before\MentorMate.Traditional.App\MentorMate.Traditional.App.csproj", "{A501E38C-31AE-464F-862F-337CD2D5FC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.Traditional.Core", "src\before\MentorMate.Traditional.Core\MentorMate.Traditional.Core.csproj", "{01EB73CD-AEE6-43F8-A446-DCE64EBACC39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorMate.Traditional.Infrastructure", "src\before\MentorMate.Traditional.Infrastructure\MentorMate.Traditional.Infrastructure.csproj", "{1CAA81F3-72C3-459E-9128-0097A49B5458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A484C32-709C-48D2-AD4F-7118EC114048} = {47505FFA-98F5-4A5A-ACCE-5653A1BB748B}
+		{0E6547D7-FDDF-48A2-BD3F-8996C096B563} = {47505FFA-98F5-4A5A-ACCE-5653A1BB748B}
+		{EC7A8D82-873C-41A3-945B-98CCD1217DA7} = {0E6547D7-FDDF-48A2-BD3F-8996C096B563}
+		{A501E38C-31AE-464F-862F-337CD2D5FC5D} = {4A484C32-709C-48D2-AD4F-7118EC114048}
+		{01EB73CD-AEE6-43F8-A446-DCE64EBACC39} = {4A484C32-709C-48D2-AD4F-7118EC114048}
+		{1CAA81F3-72C3-459E-9128-0097A49B5458} = {4A484C32-709C-48D2-AD4F-7118EC114048}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7A8D82-873C-41A3-945B-98CCD1217DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7A8D82-873C-41A3-945B-98CCD1217DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7A8D82-873C-41A3-945B-98CCD1217DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7A8D82-873C-41A3-945B-98CCD1217DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A501E38C-31AE-464F-862F-337CD2D5FC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A501E38C-31AE-464F-862F-337CD2D5FC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A501E38C-31AE-464F-862F-337CD2D5FC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A501E38C-31AE-464F-862F-337CD2D5FC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EB73CD-AEE6-43F8-A446-DCE64EBACC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EB73CD-AEE6-43F8-A446-DCE64EBACC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EB73CD-AEE6-43F8-A446-DCE64EBACC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EB73CD-AEE6-43F8-A446-DCE64EBACC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAA81F3-72C3-459E-9128-0097A49B5458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAA81F3-72C3-459E-9128-0097A49B5458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAA81F3-72C3-459E-9128-0097A49B5458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAA81F3-72C3-459E-9128-0097A49B5458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
